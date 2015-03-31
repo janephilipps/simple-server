@@ -59,8 +59,8 @@ app.get('/multiply/:x/:y', function(req,res) {
 app.get('/divide/:x/:y', function(req,res) {
 	var x = Number(req.params.x);
 	var y = Number(req.params.y);
-	var division = x / y;
-	res.send("Division is " + division);
+	var quotient = x / y;
+	res.send("Quotient is " + quotient);
 });
 
 // Tell the app to start listening for
